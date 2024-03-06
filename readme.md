@@ -2,6 +2,12 @@
 
 The Pidwin Fullstack Assessment.
 
+<img width="1309" alt="image" src="https://github.com/Voyager-Two/coinflip-demo/assets/3676208/ea4af7f9-7d94-44dc-b127-b2feb28b2395">
+
+
+https://github.com/Voyager-Two/coinflip-demo/assets/3676208/dd009427-7a8b-4d39-9b18-0fa2859317ec
+
+
 ## Project setup
 
 Enter each folder:
