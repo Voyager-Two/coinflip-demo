@@ -27,7 +27,6 @@ const Home = () => {
   const [formData, setFormData] = useState(formDataInitVal);
   // Store wager token state
   const [wagerTokens, setWagerTokens] = useState(0);
-  const [randomFlipResult, setRandomFlipResult] = useState("");
   const [pastTenWagers, setPastTenWagers] = useState([]);
   const isSingedIn = user;
   const dispatch = useDispatch();
@@ -66,21 +65,6 @@ const Home = () => {
     };
     fetchUserData();
   }, [wagerTokens]);
-
-  const handleCoinClick = () => {
-    const flipResult = Math.random();
-    setRandomFlipResult('');
-
-    setTimeout(() => {
-      if (flipResult <= 0.5) {
-        setRandomFlipResult('heads');
-        console.log('it is head');
-      } else {
-        setRandomFlipResult('tails');
-        console.log('it is tails');
-      }
-    }, 100);
-  }
 
   return (
     <Grow in>
@@ -134,29 +118,11 @@ const Home = () => {
                       color="primary"
                       size="large"
                     >
-Play
+                      Play
                     </Button>
                   </Grid>
                 </Grid>
               </form>
-
-              {/*<div id="coin" className={randomFlipResult}>*/}
-              {/*  <div className="side-a">H</div>*/}
-              {/*  <div className="side-b">T</div>*/}
-              {/*</div>*/}
-
-              <div id="coin" className={randomFlipResult} key={Math.random()}>
-                <div className="side-a">
-                  <h2>TAIL</h2>
-                </div>
-                <div className="side-b">
-                  <h2>HEAD</h2>
-                </div>
-              </div>
-
-              <button id="btn" onClick={handleCoinClick}>
-                Coin Toss
-              </button>
 
               {/* Table: past 10 coinflip result */}
 
