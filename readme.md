@@ -4,7 +4,7 @@ The Pidwin Fullstack Assessment.
 **Screenshot and video included below.**
 
 Additions/changes:
-- `backend/src/api/user-wager.js` / Backend coinflip logic
+- [backend/src/api/user-wager.js](backend/src/api/user-wager.js) / Backend coinflip logic
 - `backend/src/api/user-data.js` / Fetches last 10 wagers to display on frontend
 - `backend/src/models/wagers.js` / Wagers DB model
 - `frontend/src/components/Home.js` / Frontend code
