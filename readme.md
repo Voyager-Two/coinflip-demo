@@ -9,6 +9,8 @@ Additions/changes:
 - [backend/src/models/wagers.js](backend/src/models/wagers.js) / Wagers DB model
 - [frontend/.../Home.js](frontend/src/components/Home/Home.js) / Frontend code
 
+- Tried to add coinflip animation but couldn't get it to work properly 
+
 <img width="1309" alt="image" src="https://github.com/Voyager-Two/coinflip-demo/assets/3676208/ea4af7f9-7d94-44dc-b127-b2feb28b2395">
 
 
