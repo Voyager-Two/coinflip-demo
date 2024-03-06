@@ -5,9 +5,9 @@ The Pidwin Fullstack Assessment.
 
 Additions/changes:
 - [backend/src/api/user-wager.js](backend/src/api/user-wager.js) / Backend coinflip logic
-- `backend/src/api/user-data.js` / Fetches last 10 wagers to display on frontend
-- `backend/src/models/wagers.js` / Wagers DB model
-- `frontend/src/components/Home.js` / Frontend code
+- [backend/src/api/user-data.js](backend/src/api/user-data.js) / Fetches last 10 wagers to display on frontend
+- [backend/src/models/wagers.js](backend/src/models/wagers.js) / Wagers DB model
+- [frontend/src/components/Home.js](frontend/src/components/Home.js) / Frontend code
 
 <img width="1309" alt="image" src="https://github.com/Voyager-Two/coinflip-demo/assets/3676208/ea4af7f9-7d94-44dc-b127-b2feb28b2395">
 
