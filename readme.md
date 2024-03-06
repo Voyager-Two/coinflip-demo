@@ -1,7 +1,7 @@
 # Pidwin Assessment
 
 The Pidwin Fullstack Assessment.
-Screenshot and video included below.
+**Screenshot and video included below.**
 
 Additions/changes:
 - `backend/src/api/user-wager.js` / Backend coinflip logic
